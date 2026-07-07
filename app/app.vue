@@ -95,7 +95,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-brand-bg text-slate-100 flex flex-col font-sans selection:bg-brand-primary selection:text-white overflow-hidden relative">
+  <div class="min-h-screen bg-brand-bg text-slate-100 flex flex-col font-sans selection:bg-brand-primary selection:text-white overflow-x-hidden overflow-y-auto relative">
     
     <!-- Background Image with Glassmorphism (Visible only in Slider step) -->
     <div class="absolute inset-0 pointer-events-none z-0 transition-opacity duration-700" :class="currentStep === 'slider' ? 'opacity-100' : 'opacity-0'">
@@ -192,7 +192,7 @@ onMounted(() => {
       </div>
 
       <!-- STEP 2: PHOTO SLIDER -->
-      <div v-else class="flex-grow flex flex-col items-center justify-center p-4 md:p-8 relative z-10 w-full max-w-6xl mx-auto h-full">
+      <div v-else class="flex-grow flex flex-col items-center justify-center p-4 md:p-8 relative z-10 w-full max-w-6xl mx-auto">
         
         <!-- Back and info header -->
         <div class="w-full flex items-center justify-between mb-4 md:mb-6">
