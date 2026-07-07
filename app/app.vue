@@ -214,7 +214,7 @@ onMounted(() => {
         <div class="w-full grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
           
           <!-- Image Display (Col-span 8) -->
-          <div class="lg:col-span-8 relative aspect-video md:aspect-[16/10] lg:aspect-auto lg:h-[550px] rounded-3xl overflow-hidden border border-slate-800 bg-slate-950 shadow-2xl flex items-center justify-center group">
+          <div class="lg:col-span-8 w-full relative aspect-video md:aspect-[16/10] lg:aspect-auto lg:h-[550px] rounded-3xl overflow-hidden border border-slate-800 bg-slate-950 shadow-2xl flex items-center justify-center group">
             
             <!-- Slides Transition -->
             <Transition name="slide" mode="out-in">
